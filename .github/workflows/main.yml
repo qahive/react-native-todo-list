@@ -6,7 +6,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: -u oauth-atthaboon.s-04037:bac62705-9ee3-4f62-845d-1e00b890d99d --location \
-              --request POST https://api.us-west-1.saucelabs.com/v1/storage/upload \
-              --form payload=@"todo.zip" \
-              --form 'name="todo.latest.app.zip"'
+        args: "-u oauth-atthaboon.s-04037:bac62705-9ee3-4f62-845d-1e00b890d99d --location --request POST https://api.us-west-1.saucelabs.com/v1/storage/upload --form payload=@\"todo.zip\" --form 'name=\"todo.latest.app.zip\"'"
