@@ -1,6 +1,6 @@
 # to.do
 
-A mobile app to manage todo lists built with React Native (React Native CLI).1
+A mobile app to manage todo lists built with React Native (React Native CLI).2
 Fork from Github 
 
 ### Setup
